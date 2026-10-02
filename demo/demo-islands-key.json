@@ -1,0 +1,74 @@
+[
+ {
+  "taxon": "Lutjanidae",
+  "sector": "Artisanal",
+  "catch_type": "Landings",
+  "reporting_status": "Reported",
+  "years": [
+   1987,
+   1987
+  ],
+  "error": "unit",
+  "note": "1987 entered in kilograms instead of tonnes"
+ },
+ {
+  "taxon": "Thunnus albacares",
+  "sector": "Industrial",
+  "catch_type": "Landings",
+  "reporting_status": "Reported",
+  "years": [
+   2004,
+   2004
+  ],
+  "error": "decimal",
+  "note": "decimal point slipped one place"
+ },
+ {
+  "taxon": "Siganus",
+  "sector": "Artisanal",
+  "catch_type": "Landings",
+  "reporting_status": "Reported",
+  "years": [
+   1979,
+   1979
+  ],
+  "error": "dropout",
+  "note": "year left blank (zero) in the national report"
+ },
+ {
+  "taxon": "Caranx",
+  "sector": "Artisanal",
+  "catch_type": "Landings",
+  "reporting_status": "Reported",
+  "years": [
+   1966,
+   1966
+  ],
+  "error": "spike",
+  "note": "two survey districts counted twice"
+ },
+ {
+  "taxon": "Penaeidae",
+  "sector": "Industrial",
+  "catch_type": "Landings",
+  "reporting_status": "Reported",
+  "years": [
+   1995,
+   2019
+  ],
+  "error": "shift",
+  "note": "new logbook system from 1995; earlier years not reconstructed to match"
+ },
+ {
+  "taxon": "Marine fishes not identified",
+  "sector": "Subsistence",
+  "catch_type": "Landings",
+  "reporting_status": "Unreported",
+  "years": [
+   2013,
+   2019
+  ],
+  "error": "carry_forward",
+  "note": "2013 value carried forward to 2019 (methodology marker, not an error)"
+ }
+]

@@ -1,0 +1,255 @@
+{
+  "data_version": "50.1",
+  "regions": 366,
+  "empty_regions": [
+    "highseas:18",
+    "lme:64"
+  ],
+  "rows": 29110766,
+  "load_seconds": 156.4,
+  "violations": [],
+  "observations": {
+    "uncertainty_score_zero": {
+      "description": "Rows with uncertainty_score = 0 (outside the 1-4 scheme of Zeller et al. 2016)",
+      "rows": 17394,
+      "tonnes": 512895.7096510389
+    },
+    "uncertainty_score_null": {
+      "description": "Rows without an uncertainty score (non-domestic layers carry none)",
+      "rows": 19907797,
+      "tonnes": 7260090814.372196
+    },
+    "zero_tonnage_records": {
+      "description": "Rows with exactly 0 t (harmless, but they inflate series counts)",
+      "rows": 29638,
+      "tonnes": 0.0
+    },
+    "sub_kilogram_records": {
+      "description": "Rows below 0.001 t; consistent with residues of proportional allocation",
+      "rows": 5612740,
+      "tonnes": 1140.851856561062
+    },
+    "landings_without_value": {
+      "description": "Landings with no landed_value",
+      "rows": 0,
+      "tonnes": 0.0
+    },
+    "reported_discards": {
+      "description": "Discards flagged as reported. Most discards are estimated, but EU (STECF, from 2011; landing obligation, from 2015) and CCAMLR areas report them",
+      "rows": 5563,
+      "tonnes": 397717.09506354894
+    },
+    "nei_taxa": {
+      "description": "Rows assigned to non-species groupings ('not identified' / 'nei')",
+      "rows": 1807759,
+      "tonnes": 1635979960.3104022
+    },
+    "ragged_rows": {
+      "description": "CSV rows with a missing trailing field (landed_value omitted, not empty)",
+      "rows": 3157998,
+      "tonnes": null
+    }
+  },
+  "categories": {
+    "area_type": {
+      "lme": 14470454,
+      "eez": 14339995,
+      "high_seas": 300317
+    },
+    "data_layer": {
+      "None": 14770771,
+      "Reconstructed domestic catch": 9202969,
+      "Inferred foreign catch": 4297617,
+      "Assigned Tuna RFMO catch": 839409
+    },
+    "fishing_sector": {
+      "Industrial": 14331613,
+      "Artisanal": 13401460,
+      "Subsistence": 882891,
+      "Recreational": 494802
+    },
+    "catch_type": {
+      "Landings": 25952768,
+      "Discards": 3157998
+    },
+    "reporting_status": {
+      "Reported": 16135743,
+      "Unreported": 12975023
+    },
+    "end_use_type": {
+      "Direct human consumption": 12093053,
+      "Other": 7194160,
+      "Fishmeal and fish oil": 6665555,
+      "None": 3157998
+    },
+    "uncertainty_score": {
+      "None": 19907797,
+      "2": 3616986,
+      "3": 3279832,
+      "4": 1266821,
+      "1": 1021936,
+      "0": 17394
+    }
+  },
+  "eez_layer_scores": [
+    {
+      "data_layer": "Assigned Tuna RFMO catch",
+      "sector": "Industrial",
+      "score": null,
+      "rows": 839409,
+      "tonnes": 125034266.85895415
+    },
+    {
+      "data_layer": "Inferred foreign catch",
+      "sector": "Industrial",
+      "score": null,
+      "rows": 4297617,
+      "tonnes": 1298388834.298747
+    },
+    {
+      "data_layer": "Reconstructed domestic catch",
+      "sector": "Artisanal",
+      "score": 0,
+      "rows": 4589,
+      "tonnes": 57313.72255208568
+    },
+    {
+      "data_layer": "Reconstructed domestic catch",
+      "sector": "Artisanal",
+      "score": 1,
+      "rows": 639193,
+      "tonnes": 225490569.13517496
+    },
+    {
+      "data_layer": "Reconstructed domestic catch",
+      "sector": "Artisanal",
+      "score": 2,
+      "rows": 2552782,
+      "tonnes": 461133882.33037025
+    },
+    {
+      "data_layer": "Reconstructed domestic catch",
+      "sector": "Artisanal",
+      "score": 3,
+      "rows": 1958324,
+      "tonnes": 335098545.5129913
+    },
+    {
+      "data_layer": "Reconstructed domestic catch",
+      "sector": "Artisanal",
+      "score": 4,
+      "rows": 728085,
+      "tonnes": 209003883.94124544
+    },
+    {
+      "data_layer": "Reconstructed domestic catch",
+      "sector": "Industrial",
+      "score": 0,
+      "rows": 5839,
+      "tonnes": 324197.05885318754
+    },
+    {
+      "data_layer": "Reconstructed domestic catch",
+      "sector": "Industrial",
+      "score": 1,
+      "rows": 134396,
+      "tonnes": 243800684.83403555
+    },
+    {
+      "data_layer": "Reconstructed domestic catch",
+      "sector": "Industrial",
+      "score": 2,
+      "rows": 802280,
+      "tonnes": 739165687.050335
+    },
+    {
+      "data_layer": "Reconstructed domestic catch",
+      "sector": "Industrial",
+      "score": 3,
+      "rows": 1221734,
+      "tonnes": 1024254161.65381
+    },
+    {
+      "data_layer": "Reconstructed domestic catch",
+      "sector": "Industrial",
+      "score": 4,
+      "rows": 522987,
+      "tonnes": 1186868442.099875
+    },
+    {
+      "data_layer": "Reconstructed domestic catch",
+      "sector": "Recreational",
+      "score": 0,
+      "rows": 625,
+      "tonnes": 26684.759401171905
+    },
+    {
+      "data_layer": "Reconstructed domestic catch",
+      "sector": "Recreational",
+      "score": 1,
+      "rows": 64138,
+      "tonnes": 16309358.960118711
+    },
+    {
+      "data_layer": "Reconstructed domestic catch",
+      "sector": "Recreational",
+      "score": 2,
+      "rows": 75188,
+      "tonnes": 17509628.145257007
+    },
+    {
+      "data_layer": "Reconstructed domestic catch",
+      "sector": "Recreational",
+      "score": 3,
+      "rows": 46835,
+      "tonnes": 13081567.154748868
+    },
+    {
+      "data_layer": "Reconstructed domestic catch",
+      "sector": "Recreational",
+      "score": 4,
+      "rows": 12518,
+      "tonnes": 7478055.123102324
+    },
+    {
+      "data_layer": "Reconstructed domestic catch",
+      "sector": "Subsistence",
+      "score": 0,
+      "rows": 6341,
+      "tonnes": 104700.16884459264
+    },
+    {
+      "data_layer": "Reconstructed domestic catch",
+      "sector": "Subsistence",
+      "score": 1,
+      "rows": 184209,
+      "tonnes": 59268205.42149997
+    },
+    {
+      "data_layer": "Reconstructed domestic catch",
+      "sector": "Subsistence",
+      "score": 2,
+      "rows": 186736,
+      "tonnes": 114667204.77605276
+    },
+    {
+      "data_layer": "Reconstructed domestic catch",
+      "sector": "Subsistence",
+      "score": 3,
+      "rows": 52939,
+      "tonnes": 26877393.635289237
+    },
+    {
+      "data_layer": "Reconstructed domestic catch",
+      "sector": "Subsistence",
+      "score": 4,
+      "rows": 3231,
+      "tonnes": 349480.9992145771
+    }
+  ],
+  "by_region_type": {
+    "lme": 14470454,
+    "highseas": 300317,
+    "eez": 14339995
+  }
+}

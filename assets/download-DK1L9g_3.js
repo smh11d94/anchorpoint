@@ -1,0 +1,2 @@
+function e(e,t,n=`text/csv`){let r=URL.createObjectURL(new Blob([t],{type:n})),i=document.createElement(`a`);i.href=r,i.download=e,i.click(),setTimeout(()=>URL.revokeObjectURL(r),1e3)}function t(e){if(!e.length)return``;let t=Object.keys(e[0]),n=e=>{let t=e==null?``:typeof e==`object`?JSON.stringify(e):String(e);return/[",\n]/.test(t)?`"${t.replace(/"/g,`""`)}"`:t};return[t.join(`,`),...e.map(e=>t.map(t=>n(e[t])).join(`,`))].join(`
+`)}export{t as n,e as t};
